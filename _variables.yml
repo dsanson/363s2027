@@ -1,0 +1,20 @@
+  course:
+    number: 363
+    title: "Categories, Concepts, Kinds"
+    subtitle: "Topics in Metaphysics & Epistemology"
+    term: Spring
+    shortterm: s
+    year: 2027
+    instructor:
+      name: David Sanson
+      url: "https://www.davidsanson.com"
+    institution: Illinois State University
+    slug: "{{< var course.number >}}{{< var course.shorterm >>}{{< var course.year >}}"
+    meeting:
+      - time: MW 2:00PM--3:15PM
+        place: Stevenson 227A
+    office-hours:
+      time: "M noon--1:00PM; W 11:00AM--noon"
+      place: Stevenson 341
+    description: |
+      Are there "joints" in reality, and so objectively correct ways to group things into categories and kinds? Or are those joints something we project on to reality?
