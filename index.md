@@ -1,26 +1,51 @@
 ---
 title: '{{< var course.title >}}'
-author: "David Sanson"
-image: media/cover-image.svg
-image-alt: "A placeholder image"
-image-title: "N/A"
-about:
-  id: about-this-course
-  template: solana
+subtitle: "PHI {{< var course.number >}} ({{< var course.term >}} {{< var course.year >}})"
+image: media/Mondrian_Piet_Tableau-no-1.jpg
+image-alt: "An abstract painting suggesting an object that has been divided into a complex structure."
+image-title: "Piet Mondrian, Tableau no 1"
+image-url: https://artsandculture.google.com/asset/tableau-no-1-piet-mondriaan/owHn6UZgOHQG4w
 format:
   html:
+    toc: false
+    template-partials:
+      - templates/empty/title-block.html
+      - templates/empty/title-metadata.html
     format-links:
       - html
+    include-in-header: 
+      - text: |
+          <style>
+            h2.index-title {
+              border-bottom: 0;
+              padding-bottom: 0;
+              margin-bottom: .2em;
+              margin-top: 0;
+            }
+            h3.index-subtitle {
+              margin-top: 0;
+              margin-bottom: 1em;
+              font-size: 1.2rem;
+            }
+          </style>
 ---
 
-:::{#about-this-course}
+:::: {layout="[ 70, 30 ]"}
 
-{{< var course.description >}} 
+::: {#first-column}
 
-This is the course website for PHI {{< var course.number >}} ({{< var course.term >}} {{< var course.year >}}).
-**I will not be using Canvas.** To keep on top of readings and assignments, you need to
-check the [schedule](schedule.md), come to class, and pay attention to in-class announcements. There is **no online grade book**. If you want to know 
-your grade, you can calculate it yourself, or come to my office hours and ask!
+## {{< meta title >}} {.index-title}
+
+### {{< meta subtitle >}} {.index-subtitle}
+
+I will not use Canvas, so this is our course webpage.
+To stay on top of readings and assignments, you need to
+check the [schedule](schedule.md), come to class, and pay attention to in-class announcements. 
+
+There is no online grade book, so if you want to know 
+your grade, either you can calculate it yourself or you can ask me!
+
+See the [syllabus](syllabus.md) for more details about the course topic and course assignments.
 
 Class Meetings
 :  {{< var course.meeting.1.time >}}, {{< var course.meeting.1.place >}}.
@@ -28,10 +53,15 @@ Class Meetings
 Office Hours
 :   {{< var course.office-hours.time >}}, {{< var course.office-hours.place >}}
 
+:::
+
+::: {#second-column} 
+
+![[{{< meta image-title >}}](https://artsandculture.google.com/asset/tableau-no-1-piet-mondriaan/owHn6UZgOHQG4w){style="color: hsl(0,0%,75%); font-size: .9rem; text-align: center;"}]({{< meta image >}}){alt="{{< meta image-alt >}}" .lightbox }
 
 :::
 
-:::{style="color: hsl(0,0%,46%); text-align:center; font-size: .825em"}
-Image Credit: None. 
-:::
+::::
+
+
 

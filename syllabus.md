@@ -1,5 +1,5 @@
 ---
-title: 'Syllabus: PHI {{< var course.number >}}}'
+title: 'Syllabus: PHI {{< var course.number >}}'
 subtitle: "{{< var course.institution >}}, {{< var course.term >}} {{< var course.year >}}"
 type: syllabus
 ---
