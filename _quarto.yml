@@ -26,6 +26,12 @@ website:
         text: Syllabus
       - href: schedule.md
         text: Schedule
+  announcement:
+    icon: info-circle
+    type: danger
+    content: |
+      **Alert**: This is an incomplete draft of a website for a future course. Content may just be a placeholder. Everything subject to change.
+    position: above-navbar
 
 bibliography: [references.json]
 citeproc: true
