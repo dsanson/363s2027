@@ -57,7 +57,7 @@ Office Hours
 
 ::: {#second-column} 
 
-![[{{< meta image-title >}}](https://artsandculture.google.com/asset/tableau-no-1-piet-mondriaan/owHn6UZgOHQG4w){style="color: hsl(0,0%,75%); font-size: .9rem; text-align: center;"}]({{< meta image >}}){alt="{{< meta image-alt >}}" .lightbox }
+![[{{< meta image-title >}}]({{< meta image-url >}}){style="color: hsl(0,0%,40%); font-size: .9rem; text-align: center;"}]({{< meta image >}}){alt="{{< meta image-alt >}}" .lightbox }
 
 :::
 
