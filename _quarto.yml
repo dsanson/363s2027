@@ -30,7 +30,7 @@ website:
     icon: info-circle
     type: danger
     content: |
-      **Alert**: This is a draft course website produced from a template.
+      **Alert**: This website is under construction.
     position: above-navbar
 
 metadata:
