@@ -1,5 +1,5 @@
 ---
-title: "Flyer for {{< meta course.title >}}"
+title: "Flyer for phi{{< meta course.number >}}"
 accent-color: blue
 course-url: "`{{< meta course.url >}}`{=typst}"
 flyer-image:
