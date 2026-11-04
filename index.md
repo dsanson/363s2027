@@ -1,7 +1,7 @@
 ---
-title: '{{< var course.title >}}'
-subtitle: "PHI {{< var course.number >}} ({{< var course.term >}} {{< var course.year >}})"
-image: media/Mondrian_Piet_Tableau-no-1.jpg
+title: '{{< meta course.title >}}'
+subtitle: "PHI {{< meta course.number >}} ({{< meta course.term >}} {{< meta course.year >}})"
+image: media/mondrian-piet-tableau-no-1.jpg
 image-alt: "An abstract painting suggesting an object that has been divided into a complex structure."
 image-title: "Piet Mondrian, Tableau no 1"
 image-url: https://artsandculture.google.com/asset/tableau-no-1-piet-mondriaan/owHn6UZgOHQG4w
@@ -47,11 +47,12 @@ your grade, either you can calculate it yourself or you can ask me!
 
 See the [syllabus](syllabus.md) for more details about the course topic and course assignments.
 
+
 Class Meetings
-:  {{< var course.meeting.1.time >}}, {{< var course.meeting.1.place >}}.
+:  {{< meta course.meeting.1.time >}}, {{< meta course.meeting.1.place >}}.
 
 Office Hours
-:   {{< var course.office-hours.time >}}, {{< var course.office-hours.place >}}
+:   {{< meta course.office-hours.time >}}, {{< meta course.office-hours.place >}}
 
 :::
 
@@ -62,6 +63,4 @@ Office Hours
 :::
 
 ::::
-
-
 

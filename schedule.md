@@ -25,8 +25,7 @@ Readings are typically assigned by the week. At a minimum, you should complete t
   - [Example](guides/example.md)
 
 - - []{rowspan=2} 2
-  - M 1/18
-  - **Martin Luther King, Jr. Day --- No Class**
+  - M 1/18 — No class: Martin Luther King, Jr. Day
 
 - - W 1/20
 
