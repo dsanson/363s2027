@@ -15,6 +15,8 @@ format:
       - templates/flyer/typst-show.typ
     filters: []
     mainfont: "Libertinus Sans"
+    font-paths:
+      - fonts
 ---
 
 -   What roles do categories and kinds play in our inferential practices?
